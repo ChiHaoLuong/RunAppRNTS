@@ -10,7 +10,7 @@ import { NavigationContainer, DefaultTheme, DarkTheme } from "@react-navigation/
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import { WelcomeScreen, DemoScreen, DemoListScreen } from "../screens"
 import { navigationRef, useBackButtonHandler } from "./navigation-utilities"
-
+import { BottomNav } from "./bottom-nav/bottom-nav-navigator"
 /**
  * This type allows TypeScript to know what routes are defined in this navigator
  * as well as what properties (if any) they might take when navigating to them.
@@ -26,7 +26,8 @@ import { navigationRef, useBackButtonHandler } from "./navigation-utilities"
 export type NavigatorParamList = {
   welcome: undefined
   demo: undefined
-  demoList: undefined
+  demoList: undefined,
+  BottomNav: undefined,
 }
 
 // Documentation: https://reactnavigation.org/docs/stack-navigator/
@@ -43,6 +44,7 @@ const AppStack = () => {
       <Stack.Screen name="welcome" component={WelcomeScreen} />
       <Stack.Screen name="demo" component={DemoScreen} />
       <Stack.Screen name="demoList" component={DemoListScreen} />
+      <Stack.Screen name="BottomNav" component={BottomNav} />
     </Stack.Navigator>
   )
 }
