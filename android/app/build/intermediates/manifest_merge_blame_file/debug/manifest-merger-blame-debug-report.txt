@@ -17,15 +17,15 @@
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Asus\.gradle\caches\transforms-3\cfff42da7356a860bc43050287f5f833\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Asus\.gradle\caches\transforms-3\cfff42da7356a860bc43050287f5f833\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
-14    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-14-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-72
-14-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-69
-15    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-15-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-74
-15-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-71
-16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->[:react-native-maps] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-81
-16-->[:react-native-maps] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[:react-native-maps] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-81
+14-->[:react-native-maps] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-78
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-72
+15-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-69
+16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+16-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-74
+16-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-71
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 17-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
 17-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
@@ -60,7 +60,7 @@
 33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Asus\.gradle\caches\transforms-3\428ee22dd9b486bbbfb53ce667435eac\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 34
 35    <application
-35-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:6:5-24:19
+35-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:6:5-32:19
 36        android:name="com.newapp.MainApplication"
 36-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:7:7-38
 37        android:allowBackup="false"
@@ -103,62 +103,68 @@
 55-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:21:13-73
 55-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:21:23-70
 56            </intent-filter>
-57        </activity> <!-- suppress AndroidDomInspection -->
-58        <activity
-58-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:67
-59            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
-59-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-78
-60            android:exported="true"
-60-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
-61            android:theme="@style/DeviceCredentialHandlerTheme" />
-61-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-64
-62
-63        <provider
-63-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
-64            android:name="expo.modules.filesystem.FileSystemFileProvider"
-64-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
-65            android:authorities="com.newapp.FileSystemFileProvider"
-65-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
-66            android:exported="false"
-66-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
-67            android:grantUriPermissions="true" >
-67-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
-68            <meta-data
-68-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
-69                android:name="android.support.FILE_PROVIDER_PATHS"
-69-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
-70                android:resource="@xml/file_system_provider_paths" />
-70-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
-71        </provider>
-72
-73        <meta-data
-73-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
-74            android:name="org.unimodules.core.AppLoader#react-native-headless"
-74-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
-75            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" /> <!-- Needs to be explicitly declared on P+ -->
-75-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
-76        <uses-library
-76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-77            android:name="org.apache.http.legacy"
-77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-78            android:required="false" />
-78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-79
-80        <activity
-80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\d61fd82906bccdcd46ab5673509b660b\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\d61fd82906bccdcd46ab5673509b660b\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-82            android:exported="false"
-82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\d61fd82906bccdcd46ab5673509b660b\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\d61fd82906bccdcd46ab5673509b660b\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-84
-85        <meta-data
-85-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\2e6e298ea493fff3801f45058fbea391\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-86            android:name="com.google.android.gms.version"
-86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\2e6e298ea493fff3801f45058fbea391\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-87            android:value="@integer/google_play_services_version" />
-87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\2e6e298ea493fff3801f45058fbea391\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-88    </application>
-89
-90</manifest>
+57        </activity> <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+58        <meta-data
+58-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:26:4-28:63
+59            android:name="com.google.android.geo.API_KEY"
+59-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:27:6-51
+60            android:value="AIzaSyBXTKwlkpeAmD-SLp8rHx2KZ7kA4LHbbnY" /> <!-- You will also only need to add this uses-library tag -->
+60-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:28:6-61
+61        <uses-library
+61-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:31:4-82
+62            android:name="org.apache.http.legacy"
+62-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:31:18-55
+63            android:required="false" /> <!-- suppress AndroidDomInspection -->
+63-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:31:56-80
+64        <activity
+64-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:67
+65            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+65-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-78
+66            android:exported="true"
+66-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
+67            android:theme="@style/DeviceCredentialHandlerTheme" />
+67-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-64
+68
+69        <provider
+69-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
+70            android:name="expo.modules.filesystem.FileSystemFileProvider"
+70-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
+71            android:authorities="com.newapp.FileSystemFileProvider"
+71-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
+72            android:exported="false"
+72-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+73            android:grantUriPermissions="true" >
+73-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
+74            <meta-data
+74-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
+76                android:resource="@xml/file_system_provider_paths" />
+76-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
+77        </provider>
+78
+79        <meta-data
+79-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
+80            android:name="org.unimodules.core.AppLoader#react-native-headless"
+80-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
+81            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+81-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Asus\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+87
+88        <meta-data
+88-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Asus\.gradle\caches\transforms-3\30eb3746eb318b8637a833841ad25ef0\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Asus\.gradle\caches\transforms-3\30eb3746eb318b8637a833841ad25ef0\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Asus\.gradle\caches\transforms-3\30eb3746eb318b8637a833841ad25ef0\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+91    </application>
+92
+93</manifest>

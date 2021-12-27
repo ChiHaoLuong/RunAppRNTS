@@ -71,7 +71,7 @@ const COMPANYINFOR: ViewStyle = {
   backgroundColor: color.background,
   margin: 20,
   borderRadius: 10,
-  elevation: 10,
+  elevation: 15,
 }
 
 const COMPANYINFORTITLE: TextStyle = {

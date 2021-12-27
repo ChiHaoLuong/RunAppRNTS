@@ -12,6 +12,11 @@ const ROOT: ViewStyle = {
   flex: 1,
 }
 
+const MAP: ViewStyle = {
+  width: "100%",
+  height: "100%"
+}
+
 export const CheckScreen = observer(function CheckScreen() {
   // Pull in one of our MST stores
   // const { someStore, anotherStore } = useStores()
@@ -20,7 +25,16 @@ export const CheckScreen = observer(function CheckScreen() {
   // const navigation = useNavigation()
   return (
     <Screen style={ROOT} preset="scroll">
-      <Text preset="header" text="Check" />
+          <MapView
+          style={MAP}
+    initialRegion={{
+      latitude: 0,
+      longitude: 0,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421,
+    }}
+  />
+
     </Screen>
   )
 })
