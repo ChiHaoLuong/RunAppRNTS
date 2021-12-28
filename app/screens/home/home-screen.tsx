@@ -1,4 +1,4 @@
-import React from "react"
+import React, {FC} from "react"
 import { observer } from "mobx-react-lite"
 import { 
   ViewStyle, 
@@ -12,6 +12,9 @@ import {
   Text, 
   AutoImage, 
 } from "../../components"
+
+import { StackScreenProps } from "@react-navigation/stack"
+import {HomeNavParamList} from '../../navigators'
 
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "../../models"
@@ -115,12 +118,17 @@ const CATEGORY: TextStyle = {
   margin: 10
 }
 
-export const HomeScreen = observer(function HomeScreen() {
+export const HomeScreen: FC<StackScreenProps<HomeNavParamList,"home">> = observer(
+  ({navigation}) => {
   // Pull in one of our MST stores
   // const { someStore, anotherStore } = useStores()
 
   // Pull in navigation via hook
   // const navigation = useNavigation()
+ 
+  const workingScreenNav =()=> navigation.navigate("working")
+  const offWorkingScreenNav = () => navigation.navigate("offworking")
+
 
   return (
     <Screen style={ROOT} preset="scroll">
@@ -157,14 +165,14 @@ export const HomeScreen = observer(function HomeScreen() {
 
       
           <View style={CATEGORIESITEMSROW}>
-            <TouchableOpacity style={CATEGORIESITEM}>
+            <TouchableOpacity onPress={workingScreenNav} style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
               <MaterialIcons name="work" size={90} color={color.blue}  />
               <Text text="Công việc" style={CATEGORY} />
             </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={CATEGORIESITEM}>
+            <TouchableOpacity onPress={offWorkingScreenNav} style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
               <MaterialIcons name="work-off" size={90} color={color.blue}  />
               <Text text="Nghỉ phép" style={CATEGORY} />

@@ -88,7 +88,6 @@ const FOOTER_CONTENT: ViewStyle = {
 
 export const WelcomeScreen: FC<StackScreenProps<NavigatorParamList, "welcome">> = observer(
   ({ navigation }) => {
-    const nextScreen = () => navigation.navigate("demo")
     const navScreen = () => navigation.navigate("BottomNav")
 
     return (
@@ -121,14 +120,6 @@ export const WelcomeScreen: FC<StackScreenProps<NavigatorParamList, "welcome">> 
 
         <SafeAreaView style={FOOTER}>
           <View style={FOOTER_CONTENT}>
-            <Button
-              testID="next-screen-button"
-              style={CONTINUE}
-              textStyle={CONTINUE_TEXT}
-              tx="welcomeScreen.continue"
-              onPress={nextScreen}
-            />
-
             <Button
               testID="next-screen-button"
               style={CONTINUE}

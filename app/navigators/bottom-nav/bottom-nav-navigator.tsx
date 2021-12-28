@@ -1,16 +1,19 @@
 import React from "react"
 
 import { createBottomTabNavigator, BottomTabNavigationOptions } from "@react-navigation/bottom-tabs"
-import { DemoScreen, HomeScreen, ProfileScreen } from "../../screens"
+import { HomeScreen, ProfileScreen } from "../../screens"
 
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
-import { Icon } from "../../components"
+
+import { HomeNav } from "../home-nav/home-nav-navigator"
+
 import { CheckScreen } from "../../screens/check/check-screen"
 export type BottomNavParamList = {
   check: undefined 
-  home: undefined,
+  homeNav: undefined,
   profile: undefined,
 }
+
 
 // Option
 const NavigatorOptions: BottomTabNavigationOptions = {
@@ -40,8 +43,8 @@ const profileScreenOptions: BottomTabNavigationOptions = {
 const Stack = createBottomTabNavigator<BottomNavParamList>()
 export const BottomNav = () => {
   return (
-    <Stack.Navigator screenOptions={NavigatorOptions} initialRouteName="home">
-      <Stack.Screen name="home" options={HomeScreenOptions} component={HomeScreen} />
+    <Stack.Navigator screenOptions={NavigatorOptions} initialRouteName="homeNav">
+      <Stack.Screen name="homeNav" options={HomeScreenOptions} component={HomeNav} />
       <Stack.Screen name="check" options={checkScreenOptions} component={CheckScreen} />
       <Stack.Screen name="profile" options={profileScreenOptions} component={ProfileScreen}  />
     </Stack.Navigator>

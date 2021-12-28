@@ -5,7 +5,7 @@ import { Screen, Text } from "../../components"
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "../../models"
 import { color } from "../../theme"
-import MapView from 'react-native-maps';
+import MapView from "react-native-maps"
 
 const ROOT: ViewStyle = {
   backgroundColor: color.palette.black,
@@ -13,8 +13,8 @@ const ROOT: ViewStyle = {
 }
 
 const MAP: ViewStyle = {
-  width: "100%",
-  height: "100%"
+
+  flex: 1,
 }
 
 export const CheckScreen = observer(function CheckScreen() {
@@ -25,16 +25,18 @@ export const CheckScreen = observer(function CheckScreen() {
   // const navigation = useNavigation()
   return (
     <Screen style={ROOT} preset="scroll">
-          <MapView
-          style={MAP}
-    initialRegion={{
-      latitude: 0,
-      longitude: 0,
+      <MapView
+        style={MAP}
+        showsUserLocation={false}
+        zoomControlEnabled={true}
+        zoomEnabled={true}
+          initialRegion={{
+      latitude: 37.78825,
+      longitude: -122.4324,
       latitudeDelta: 0.0922,
       longitudeDelta: 0.0421,
     }}
-  />
-
+      />
     </Screen>
   )
 })
