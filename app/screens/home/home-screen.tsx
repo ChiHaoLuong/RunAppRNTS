@@ -22,7 +22,7 @@ import { color } from "../../theme"
 
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 
-const bowserLogo = require("../welcome/bowser.png")
+const bowserLogo = require("../profile/anhdaidien.jpg")
 
 const ROOT: ViewStyle = {
   backgroundColor: color.background,
@@ -55,6 +55,7 @@ const BOWSER: ImageStyle = {
   maxWidth: "100%",
   width: 80,
   height: 80,
+  borderRadius: 50,
 }
 
 const HEADERCONTAINER: ViewStyle = {
@@ -137,7 +138,7 @@ export const HomeScreen: FC<StackScreenProps<HomeNavParamList,"home">> = observe
           <AutoImage style={BOWSER} source={bowserLogo} />
 
           <View style={USERINFOR}>
-            <Text text="Lương Chí Hào" style={USERINFORNAME} />
+            <Text text="Dương Xử Nữ" style={USERINFORNAME} />
             <Text text="Nichietsu VN" style={USERINFORCOMPANY} />
           </View>
         </View>

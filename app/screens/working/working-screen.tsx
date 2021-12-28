@@ -12,13 +12,11 @@ import {
   Screen, 
   Text, 
   AutoImage,
-  Button,
-  Header,
 } from "../../components"
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "../../models"
 import { color } from "../../theme"
-const bowserLogo = require("../welcome/bowser.png")
+const bowserLogo = require("../profile/anhdaidien.jpg")
 
 const ROOT: ViewStyle = {
   backgroundColor: color.line,
@@ -54,6 +52,7 @@ const BOWSER: ImageStyle = {
   maxWidth: "100%",
   width: 80,
   height: 80,
+  borderRadius: 50,
 }
 
 const CARDWORKING : ViewStyle = {
@@ -113,7 +112,7 @@ export const WorkingScreen = observer(function WorkingScreen() {
           <AutoImage style={BOWSER} source={bowserLogo} />
 
           <View style={USERINFOR}>
-            <Text text="Lương Chí Hào" style={USERINFORNAME} />
+            <Text text="Dương Xử Nữ" style={USERINFORNAME} />
             <Text text="Nichietsu VN" style={USERINFORCOMPANY} />
           </View>
       </View>    
