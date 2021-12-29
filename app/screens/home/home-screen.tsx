@@ -53,8 +53,8 @@ const USERINFORCOMPANY: TextStyle = {
 const BOWSER: ImageStyle = {
   alignSelf: "center",
   maxWidth: "100%",
-  width: 80,
-  height: 80,
+  width: 70,
+  height: 70,
   borderRadius: 50,
 }
 
@@ -94,8 +94,6 @@ const INFORDATA: TextStyle = {
   fontWeight: "bold",
 }
 
-
-
 const CATEGORIESITEMSROW: ViewStyle = {
   flexDirection: "row",
   justifyContent: "center",
@@ -115,7 +113,7 @@ const CATEGORIESITEM: ViewStyle = {
 
 const CATEGORY: TextStyle = {
   color: color.palette.blue,
-  fontSize: 22,
+  fontSize: 18,
   margin: 10
 }
 
@@ -129,7 +127,7 @@ export const HomeScreen: FC<StackScreenProps<HomeNavParamList,"home">> = observe
  
   const workingScreenNav =()=> navigation.navigate("working")
   const offWorkingScreenNav = () => navigation.navigate("offworking")
-
+  const oTScreenNav = () => navigation.navigate("overtime")
 
   return (
     <Screen style={ROOT} preset="scroll">
@@ -168,30 +166,30 @@ export const HomeScreen: FC<StackScreenProps<HomeNavParamList,"home">> = observe
           <View style={CATEGORIESITEMSROW}>
             <TouchableOpacity onPress={workingScreenNav} style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
-              <MaterialIcons name="work" size={90} color={color.blue}  />
+              <MaterialIcons name="work" size={80} color={color.blue}  />
               <Text text="Công việc" style={CATEGORY} />
             </View>
             </TouchableOpacity>
 
             <TouchableOpacity onPress={offWorkingScreenNav} style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
-              <MaterialIcons name="work-off" size={90} color={color.blue}  />
+              <MaterialIcons name="work-off" size={80} color={color.blue}  />
               <Text text="Nghỉ phép" style={CATEGORY} />
             </View>
             </TouchableOpacity>
           </View>
 
           <View style={CATEGORIESITEMSROW}>
-            <TouchableOpacity style={CATEGORIESITEM}>
+            <TouchableOpacity onPress={oTScreenNav} style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
-              <MaterialIcons name="more-time" size={90} color={color.blue}  />
+              <MaterialIcons name="more-time" size={80} color={color.blue}  />
               <Text text="Tăng ca" style={CATEGORY} />
             </View>
             </TouchableOpacity>
 
             <TouchableOpacity style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
-              <MaterialIcons name="wysiwyg" size={90} color={color.blue}  />
+              <MaterialIcons name="wysiwyg" size={80} color={color.blue}  />
               <Text text="Bù công" style={CATEGORY} />
             </View>
             </TouchableOpacity>

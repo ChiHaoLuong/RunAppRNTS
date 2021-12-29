@@ -1,15 +1,16 @@
-import React from "react"
+import React, {useState} from "react"
 import { observer } from "mobx-react-lite"
 import { ViewStyle, View, ScrollView, TextStyle, ImageStyle } from "react-native"
-import { Screen, Text, AutoImage } from "../../components"
+import { Screen, Text, AutoImage, FormRow, Button, } from "../../components"
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "../../models"
 import { color } from "../../theme"
+import Modal from "react-native-modal";
 
 const bowserLogo = require("../profile/anhdaidien.jpg")
 
 const ROOT: ViewStyle = {
-  backgroundColor: color.line,
+  backgroundColor: color.background,
   flex: 1,
 }
 
@@ -20,17 +21,20 @@ const USERCARD: ViewStyle = {
   paddingVertical: 20,
   alignItems: "center",
   backgroundColor: color.blue,
-  borderBottomLeftRadius: 25,
-  borderBottomRightRadius: 25,
+  borderBottomLeftRadius: 15,
+  borderBottomRightRadius: 15,
+  marginBottom: 10,
 }
 
 const USERINFOR: ViewStyle = {
   margin: 5,
+
 }
 
 const USERINFORNAME: TextStyle = {
   color: color.text,
   fontSize: 25,
+  fontWeight: "bold",
 }
 
 const USERINFORCOMPANY: TextStyle = {
@@ -46,57 +50,80 @@ const BOWSER: ImageStyle = {
   borderRadius: 50,
 }
 
-const CARDWORKING : ViewStyle = {
-    margin: 10,
-    borderRadius: 15,
+const CARDOFFWORKING : ViewStyle = {
+    marginVertical: 5,
+    marginHorizontal: 20,
     backgroundColor: color.background,
-    paddingBottom: 20,
+    borderRadius: 10,
+    elevation: 15,
 }
 
-const TITLECARD : TextStyle = {
-    color: color.text,
-    fontWeight: "bold",
-    backgroundColor: color.blue,
-    borderTopRightRadius: 15,
-    borderTopLeftRadius: 15,
-    textAlign: "center",
-    fontSize: 18,
-}
-
-const CHECKCARD : ViewStyle = {
+const CARDTITLE : ViewStyle = {
   flexDirection: "row",
-  flex: 1,
-  alignItems: "center",
-  justifyContent:"center",
-  margin: 10,
+  backgroundColor: color.blue,
+  borderBottomWidth: 0.5,
+  padding: 10,
+  borderTopLeftRadius: 10,
+  borderTopRightRadius: 10,
+  justifyContent: "center"
 }
 
-const CHECK : ViewStyle = {
-  flex: 1,
-  alignItems: "center",
-  justifyContent:"center"
-}
-
-const TIMECHECK: TextStyle = {
-  color: color.palette.blueText,
-  fontSize: 25,
+const TEXTTITLE: TextStyle = {
+  color: color.text,
   fontWeight: "bold",
-  marginBottom: 10,
+  fontSize: 15,
 }
 
+const CARDBODY: ViewStyle = {
+  flexDirection: "row",
+  padding: 10,
+  paddingHorizontal: 10,
+  
+}
 
-const BTNTEXTCHECK: TextStyle = {
-   fontSize: 20,
-   color: color.palette.black,
+const INNERLEFTCARD: TextStyle = {
+  color: color.dim,
+  flex: 1.5
+}
+
+const INNERRIGHTCARD: TextStyle = {
+  color: color.palette.black,
+  flex: 1
+}
+
+const DAYOFNUM : TextStyle = {
+  color: color.error,
+  textAlign: "center",
+  margin: 10
+}
+
+const BTNOFFWORKING: ViewStyle = {
+    borderRadius: 20,
+    marginHorizontal: 50,
+    backgroundColor: color.palette.blue,
+    margin: 5,
+}
+
+const BTNTEXTOFFWORKING: TextStyle = {
+  margin: 7,
+  fontSize: 13,
+}
+
+const MODALCONTAINER : ViewStyle = {
 
 }
 
 export const OffWorkingScreen = observer(function OffWorkingScreen() {
+  const [openModal, setOpenModal] = useState<boolean>(false);
+
   // Pull in one of our MST stores
   // const { someStore, anotherStore } = useStores()
 
   // Pull in navigation via hook
   // const navigation = useNavigation()
+
+
+
   return (
     <Screen style={ROOT} preset="scroll">
         <View style={USERCARD}>
@@ -106,69 +133,85 @@ export const OffWorkingScreen = observer(function OffWorkingScreen() {
             <Text text="Dương Xử Nữ" style={USERINFORNAME} />
             <Text text="Nichietsu VN" style={USERINFORCOMPANY} />
           </View>
+
+               
       </View>    
 
+
+
       <ScrollView >
-      <View style={CARDWORKING} >
-            <Text text="Thứ ba, 28/20/2021" style={TITLECARD} />
-            <View style={CHECKCARD} >
-                <View style={CHECK} >
-                    <Text text="9:45" style={TIMECHECK} />
-                    <Text text="VÀO LÀM" style={BTNTEXTCHECK} />
-                </View>
+        <View style={CARDOFFWORKING} >
+          <View style={CARDTITLE} >
+            <Text text="03/09/2021" style={TEXTTITLE} />
+            <Text text="  -  " style={TEXTTITLE} />
+            <Text text="04/09/2021" style={TEXTTITLE} />
+          </View>
 
-                <View style={CHECK} >
-                    <Text text="18:00" style={TIMECHECK} />
-                    <Text text="RA VỀ" style={BTNTEXTCHECK} />
-                </View>
-            </View>
-      </View>
+          <View style={CARDBODY} >
+              <Text text="Lý do:" style={INNERLEFTCARD} />
+              <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
+          </View>
 
-      <View style={CARDWORKING} >
-            <Text text="Thứ ba, 28/20/2021" style={TITLECARD} />
-            <View style={CHECKCARD} >
-                <View style={CHECK} >
-                    <Text text="9:45" style={TIMECHECK} />
-                    <Text text="VÀO LÀM" style={BTNTEXTCHECK} />
-                </View>
+          <View style={CARDBODY} >
+              <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
+              <Text text="2" style={INNERRIGHTCARD} />
+          </View>
 
-                <View style={CHECK} >
-                    <Text text="18:00" style={TIMECHECK} />
-                    <Text text="RA VỀ" style={BTNTEXTCHECK} />
-                </View>
-            </View>
-      </View>
+        </View>
 
-      <View style={CARDWORKING} >
-            <Text text="Thứ ba, 28/20/2021" style={TITLECARD} />
-            <View style={CHECKCARD} >
-                <View style={CHECK} >
-                    <Text text="9:45" style={TIMECHECK} />
-                    <Text text="VÀO LÀM" style={BTNTEXTCHECK} />
-                </View>
+        <View style={CARDOFFWORKING} >
+          <View style={CARDTITLE} >
+            <Text text="03/09/2021" style={TEXTTITLE} />
+            <Text text="  -  " style={TEXTTITLE} />
+            <Text text="04/09/2021" style={TEXTTITLE} />
+          </View>
 
-                <View style={CHECK} >
-                    <Text text="18:00" style={TIMECHECK} />
-                    <Text text="RA VỀ" style={BTNTEXTCHECK} />
-                </View>
-            </View>
-      </View>
+          <View style={CARDBODY} >
+              <Text text="Lý do:" style={INNERLEFTCARD} />
+              <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
+          </View>
 
-      <View style={CARDWORKING} >
-            <Text text="Thứ ba, 28/20/2021" style={TITLECARD} />
-            <View style={CHECKCARD} >
-                <View style={CHECK} >
-                    <Text text="9:45" style={TIMECHECK} />
-                    <Text text="VÀO LÀM" style={BTNTEXTCHECK} />
-                </View>
+          <View style={CARDBODY} >
+              <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
+              <Text text="2" style={INNERRIGHTCARD} />
+          </View>
 
-                <View style={CHECK} >
-                    <Text text="18:00" style={TIMECHECK} />
-                    <Text text="RA VỀ" style={BTNTEXTCHECK} />
-                </View>
-            </View>
-      </View>
+        </View>
+
+        <View style={CARDOFFWORKING} >
+          <View style={CARDTITLE} >
+            <Text text="03/09/2021" style={TEXTTITLE} />
+            <Text text="  -  " style={TEXTTITLE} />
+            <Text text="04/09/2021" style={TEXTTITLE} />
+          </View>
+
+          <View style={CARDBODY} >
+              <Text text="Lý do:" style={INNERLEFTCARD} />
+              <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
+          </View>
+
+          <View style={CARDBODY} >
+              <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
+              <Text text="2" style={INNERRIGHTCARD} />
+          </View>
+
+        </View>
       </ScrollView>
+      <Text text="Bạn còn 10 ngày phép trong tháng" style={DAYOFNUM} />
+
+      <Button style={BTNOFFWORKING} onPress={()=>setOpenModal(!openModal)} text="ĐĂNG KÝ NGHỈ PHÉP" textStyle={BTNTEXTOFFWORKING} />
+      
+    <Modal 
+      isVisible={openModal}
+      animationIn="fadeIn"
+      animationOut="fadeInUp"
+      coverScreen={true}
+    >
+        <View style={MODALCONTAINER} >
+          <Button onPress={()=>setOpenModal(!openModal)} text="OPEN" />
+        </View>
+    </Modal>      
+
     </Screen>
   )
 })

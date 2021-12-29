@@ -28,22 +28,22 @@ const USERCARD: ViewStyle = {
   paddingHorizontal: 20,
   paddingVertical: 20,
   alignItems: "center",
-  backgroundColor: color.blue,
+  backgroundColor: color.background,
   borderBottomLeftRadius: 25,
   borderBottomRightRadius: 25,
 }
 
 const USERINFOR: ViewStyle = {
-  margin: 5,
+  margin: 5
 }
 
 const USERINFORNAME: TextStyle = {
-  color: color.text,
+  color: color.palette.blueText,
   fontSize: 25,
 }
 
 const USERINFORCOMPANY: TextStyle = {
-  color: color.line,
+  color: color.palette.black,
   fontSize: 18,
 }
 
