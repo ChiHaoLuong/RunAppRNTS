@@ -1,7 +1,7 @@
 import React from "react"
 
 import { createBottomTabNavigator, BottomTabNavigationOptions } from "@react-navigation/bottom-tabs"
-import { HomeScreen, ProfileScreen } from "../../screens"
+import {  ProfileScreen } from "../../screens"
 
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 

@@ -1,11 +1,14 @@
-import React, {useState} from "react"
+import React, {FC, useState} from "react"
 import { observer } from "mobx-react-lite"
 import { ViewStyle, View, ScrollView, TextStyle, ImageStyle } from "react-native"
 import { Screen, Text, AutoImage, FormRow, Button, } from "../../components"
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "../../models"
 import { color } from "../../theme"
-import Modal from "react-native-modal";
+
+
+import { StackScreenProps } from "@react-navigation/stack"
+import {HomeNavParamList} from '../../navigators'
 
 const bowserLogo = require("../profile/anhdaidien.jpg")
 
@@ -109,13 +112,10 @@ const BTNTEXTOFFWORKING: TextStyle = {
   fontSize: 13,
 }
 
-const MODALCONTAINER : ViewStyle = {
+export const OffWorkingScreen: FC<StackScreenProps<HomeNavParamList, "registOffWorking">> = observer(
+  ({navigation}) => {
 
-}
-
-export const OffWorkingScreen = observer(function OffWorkingScreen() {
-  const [openModal, setOpenModal] = useState<boolean>(false);
-
+    const registOffWorkingNav = () => {navigation.navigate("registOffWorking")}
   // Pull in one of our MST stores
   // const { someStore, anotherStore } = useStores()
 
@@ -133,11 +133,7 @@ export const OffWorkingScreen = observer(function OffWorkingScreen() {
             <Text text="Dương Xử Nữ" style={USERINFORNAME} />
             <Text text="Nichietsu VN" style={USERINFORCOMPANY} />
           </View>
-
-               
       </View>    
-
-
 
       <ScrollView >
         <View style={CARDOFFWORKING} >
@@ -156,7 +152,6 @@ export const OffWorkingScreen = observer(function OffWorkingScreen() {
               <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
               <Text text="2" style={INNERRIGHTCARD} />
           </View>
-
         </View>
 
         <View style={CARDOFFWORKING} >
@@ -175,7 +170,6 @@ export const OffWorkingScreen = observer(function OffWorkingScreen() {
               <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
               <Text text="2" style={INNERRIGHTCARD} />
           </View>
-
         </View>
 
         <View style={CARDOFFWORKING} >
@@ -184,7 +178,6 @@ export const OffWorkingScreen = observer(function OffWorkingScreen() {
             <Text text="  -  " style={TEXTTITLE} />
             <Text text="04/09/2021" style={TEXTTITLE} />
           </View>
-
           <View style={CARDBODY} >
               <Text text="Lý do:" style={INNERLEFTCARD} />
               <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
@@ -194,23 +187,12 @@ export const OffWorkingScreen = observer(function OffWorkingScreen() {
               <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
               <Text text="2" style={INNERRIGHTCARD} />
           </View>
-
         </View>
       </ScrollView>
       <Text text="Bạn còn 10 ngày phép trong tháng" style={DAYOFNUM} />
 
-      <Button style={BTNOFFWORKING} onPress={()=>setOpenModal(!openModal)} text="ĐĂNG KÝ NGHỈ PHÉP" textStyle={BTNTEXTOFFWORKING} />
+      <Button style={BTNOFFWORKING} onPress={registOffWorkingNav}  text="ĐĂNG KÝ NGHỈ PHÉP" textStyle={BTNTEXTOFFWORKING} />
       
-    <Modal 
-      isVisible={openModal}
-      animationIn="fadeIn"
-      animationOut="fadeInUp"
-      coverScreen={true}
-    >
-        <View style={MODALCONTAINER} >
-          <Button onPress={()=>setOpenModal(!openModal)} text="OPEN" />
-        </View>
-    </Modal>      
 
     </Screen>
   )
