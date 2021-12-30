@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-firebase/app
+import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // expo
 import expo.modules.ExpoModulesPackage;
 // react-native-gesture-handler
@@ -76,6 +78,7 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new RNCMaskedViewPackage(),
+      new ReactNativeFirebaseAppPackage(),
       new ExpoModulesPackage(),
       new RNGestureHandlerPackage(),
       new KeychainPackage(),

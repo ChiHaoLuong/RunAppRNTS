@@ -14251,6 +14251,11 @@
   dependencies:
     "warn-once" "^0.1.0"
 
+"react-native-select-dropdown@^1.6.0":
+  "integrity" "sha512-lKBVG1McWOBeeJRFo47yx5HXPkRYdMXFa05gsAqF7N6kx1rawQXHkkt+eO+wrFDAxWOMPn7mSjIi9IKhf11Vow=="
+  "resolved" "https://registry.npmjs.org/react-native-select-dropdown/-/react-native-select-dropdown-1.6.0.tgz"
+  "version" "1.6.0"
+
 "react-native-swipe-gestures@^1.0.4":
   "integrity" "sha512-Ns7Bn9H/Tyw278+5SQx9oAblDZ7JixyzeOczcBK8dipQk2pD7Djkcfnf1nB/8RErAmMLL9iXgW0QHqiII8AhKw=="
   "resolved" "https://registry.npmjs.org/react-native-swipe-gestures/-/react-native-swipe-gestures-1.0.5.tgz"

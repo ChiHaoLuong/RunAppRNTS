@@ -6,10 +6,9 @@ import {  ProfileScreen } from "../../screens"
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 
 import { HomeNav } from "../home-nav/home-nav-navigator"
-
-import { CheckScreen } from "../../screens/check/check-screen"
+import { CheckNav } from '../check-nav/check-nav-navigator'
 export type BottomNavParamList = {
-  check: undefined 
+  checkNav: undefined 
   homeNav: undefined,
   profile: undefined,
 }
@@ -45,7 +44,7 @@ export const BottomNav = () => {
   return (
     <Stack.Navigator screenOptions={NavigatorOptions} initialRouteName="homeNav">
       <Stack.Screen name="homeNav" options={HomeScreenOptions} component={HomeNav} />
-      <Stack.Screen name="check" options={checkScreenOptions} component={CheckScreen} />
+      <Stack.Screen name="checkNav" options={checkScreenOptions} component={CheckNav} />
       <Stack.Screen name="profile" options={profileScreenOptions} component={ProfileScreen}  />
     </Stack.Navigator>
   )

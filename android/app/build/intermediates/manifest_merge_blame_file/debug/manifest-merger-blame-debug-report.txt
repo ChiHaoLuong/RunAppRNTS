@@ -117,56 +117,128 @@
 63-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:28:13-73
 63-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:28:23-70
 64            </intent-filter>
-65        </activity> <!-- suppress AndroidDomInspection -->
-66        <activity
-66-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:67
-67            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
-67-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-78
-68            android:exported="true"
-68-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
-69            android:theme="@style/DeviceCredentialHandlerTheme" />
-69-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-64
+65        </activity>
+66
+67        <meta-data
+67-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+68            android:name="app_data_collection_default_enabled"
+68-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+69            android:value="true" />
+69-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
 70
-71        <provider
-71-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
-72            android:name="expo.modules.filesystem.FileSystemFileProvider"
-72-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
-73            android:authorities="com.newapp.FileSystemFileProvider"
-73-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
-74            android:exported="false"
-74-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
-75            android:grantUriPermissions="true" >
-75-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
-76            <meta-data
-76-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
-77                android:name="android.support.FILE_PROVIDER_PATHS"
-77-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
-78                android:resource="@xml/file_system_provider_paths" />
-78-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
-79        </provider>
-80
-81        <meta-data
-81-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
-82            android:name="org.unimodules.core.AppLoader#react-native-headless"
-82-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
-83            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
-83-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
-84
+71        <service
+71-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:36:13-37
+75            <meta-data
+75-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+76                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+76-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+78        </service>
+79
+80        <provider
+80-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+81            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+81-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+82            android:authorities="com.newapp.reactnativefirebaseappinitprovider"
+82-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+83            android:exported="false"
+83-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+84            android:initOrder="99" /> <!-- suppress AndroidDomInspection -->
+84-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
 85        <activity
-85-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
-86            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-86-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
-87            android:exported="false"
-87-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
-88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-88-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\1a3fc054ac892bb3e5ea2822810976e8\transformed\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+85-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:67
+86            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+86-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-78
+87            android:exported="true"
+87-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
+88            android:theme="@style/DeviceCredentialHandlerTheme" />
+88-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-64
 89
-90        <meta-data
-90-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
-91            android:name="com.google.android.gms.version"
-91-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
-92            android:value="@integer/google_play_services_version" />
-92-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
-93    </application>
-94
-95</manifest>
+90        <provider
+90-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
+91            android:name="expo.modules.filesystem.FileSystemFileProvider"
+91-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
+92            android:authorities="com.newapp.FileSystemFileProvider"
+92-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
+93            android:exported="false"
+93-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+94            android:grantUriPermissions="true" >
+94-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
+95            <meta-data
+95-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
+97                android:resource="@xml/file_system_provider_paths" />
+97-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
+98        </provider>
+99
+100        <meta-data
+100-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
+101            android:name="org.unimodules.core.AppLoader#react-native-headless"
+101-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
+102            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
+102-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
+103
+104        <activity
+104-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:23:9-27:75
+105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+105-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:24:13-93
+106            android:excludeFromRecents="true"
+106-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:25:13-46
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:26:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:27:13-72
+109        <!--
+110            Service handling Google Sign-In user revocation. For apps that do not integrate with
+111            Google Sign-In, this service will never be started.
+112        -->
+113        <service
+113-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:33:9-37:51
+114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+114-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:34:13-89
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:35:13-36
+116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+116-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:36:13-107
+117            android:visibleToInstantApps="true" />
+117-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:37:13-48
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+123
+124        <meta-data
+124-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+130            android:authorities="com.newapp.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+131            android:directBootAware="true"
+131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+134    </application>
+135
+136</manifest>

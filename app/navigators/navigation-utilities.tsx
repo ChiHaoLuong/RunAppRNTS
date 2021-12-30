@@ -103,10 +103,10 @@ export function useNavigationPersistence(storage: any, persistenceKey: string) {
     }
 
     // Save the current route name for later comparision
-    routeNameRef.current = currentRouteName
+    // routeNameRef.current = currentRouteName
 
     // Persist state to storage
-    storage.save(persistenceKey, state)
+    // storage.save(persistenceKey, state)
   }
 
   const restoreState = async () => {
