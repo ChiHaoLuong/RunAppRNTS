@@ -10,6 +10,7 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\user01
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\e60855d9c62b87ef5530f46c06b82160\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-maps] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-async-storage_async-storage] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-community_masked-view] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-27:12
 MERGED from [:expo] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
@@ -144,6 +145,8 @@ application
 ADDED from C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:6:5-33:19
 MERGED from C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:6:5-33:19
 MERGED from C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:6:5-33:19
+MERGED from [:react-native-community_datetimepicker] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-20
+MERGED from [:react-native-community_datetimepicker] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-20
 MERGED from [:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:19
 MERGED from [:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-25:19
 MERGED from [:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-19:19
@@ -260,6 +263,8 @@ MERGED from [:react-native-maps] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunA
 MERGED from [:react-native-maps] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-async-storage_async-storage] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-async-storage_async-storage] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\datetimepicker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41

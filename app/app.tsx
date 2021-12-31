@@ -33,7 +33,7 @@ function App() {
   const [rootStore, setRootStore] = useState<RootStore | undefined>(undefined)
   const {
     initialNavigationState,
-    // onNavigationStateChange,
+    onNavigationStateChange,
     isRestored: isNavigationStateRestored,
   } = useNavigationPersistence(storage, NAVIGATION_PERSISTENCE_KEY)
 
