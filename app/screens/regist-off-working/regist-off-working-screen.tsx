@@ -132,7 +132,7 @@ export const RegistOffWorkingScreen: FC<StackScreenProps<HomeNavParamList, "regi
 
   const acceptOff = () => {
     var diffFromNow = moment(dateFrom).diff(moment(), "days")
-    if (diffFromNow < 0) Alert.alert("Lỗi", "Ngày bạn chọn đã là quá khứ rồi")
+    if (diffFromNow < 3) Alert.alert("Lỗi", "Vui lòng chọn ngày bắt đầu nghỉ trước 3 ngày")
     // if (offDaysTotal < 0)
     // {
     //   Alert.alert("Lỗi", "Ngày kết thúc không được lớn hơn hoặc bằng ngày bắt đầu");
