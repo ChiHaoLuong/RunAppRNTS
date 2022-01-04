@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\user01.ADMIN1\\OneDrive\\Desktop\\RN\\RunAppRNTS\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "C:\\Users\\Asus\\Desktop\\TypeScript\\NewApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\user01.ADMIN1\\.gradle\\caches\\transforms-3\\ef36c6cdcca67ea8468dfefd67ac1fd6\\transformed\\appcompat-1.3.0\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Asus\\.gradle\\caches\\transforms-3\\ef36c6cdcca67ea8468dfefd67ac1fd6\\transformed\\appcompat-1.3.0\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

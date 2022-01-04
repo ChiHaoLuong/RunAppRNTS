@@ -9,236 +9,236 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\debug\AndroidManifest.xml:5:5-77
-11-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\debug\AndroidManifest.xml:5:22-75
+11-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:4:5-67
-12-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:4:22-64
+12-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\cfff42da7356a860bc43050287f5f833\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
-13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\cfff42da7356a860bc43050287f5f833\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Asus\.gradle\caches\transforms-3\cfff42da7356a860bc43050287f5f833\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\Asus\.gradle\caches\transforms-3\cfff42da7356a860bc43050287f5f833\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->[:react-native-maps] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-81
-14-->[:react-native-maps] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-78
+14-->[:react-native-maps] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-81
+14-->[:react-native-maps] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-78
 15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-15-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-72
-15-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-69
+15-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-72
+15-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-69
 16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-16-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-74
-16-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-71
+16-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-74
+16-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-71
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
-17-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+17-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+17-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-18-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-80
-18-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-77
+18-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-80
+18-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-77
 19
 20    <queries>
-20-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-20:15
+20-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-20:15
 21
 22        <!-- Query open documents -->
 23        <intent>
-23-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:18
+23-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:18
 24            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
-24-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-79
-24-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:21-76
+24-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-79
+24-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:21-76
 25        </intent>
 26    </queries> <!-- Include required permissions for Google Maps API to run. -->
 27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 28
 29    <uses-feature
-29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 30        android:glEsVersion="0x00020000"
-30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 31        android:required="true" />
-31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Asus\.gradle\caches\transforms-3\02f3faa7d0a3b9039331f311711c902d\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 32
 33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\9b9462829da22560cf4ec922e1441961\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
-33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\9b9462829da22560cf4ec922e1441961\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Asus\.gradle\caches\transforms-3\428ee22dd9b486bbbfb53ce667435eac\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+33-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Asus\.gradle\caches\transforms-3\428ee22dd9b486bbbfb53ce667435eac\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
 34
 35    <application
-35-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:6:5-33:19
+35-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:6:5-33:19
 36        android:name="com.newapp.MainApplication"
-36-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:7:7-38
+36-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:7:7-38
 37        android:allowBackup="false"
-37-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:11:7-34
+37-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:11:7-34
 38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.5.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f3671c45adc2c22fb7072d01ee7087ab\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+38-->[androidx.core:core:1.5.0] C:\Users\Asus\.gradle\caches\transforms-3\f3671c45adc2c22fb7072d01ee7087ab\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 39        android:debuggable="true"
 40        android:icon="@mipmap/ic_launcher"
-40-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:9:7-41
+40-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:9:7-41
 41        android:label="@string/app_name"
-41-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:8:7-39
+41-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:8:7-39
 42        android:roundIcon="@mipmap/ic_launcher_round"
-42-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:10:7-52
+42-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:10:7-52
 43        android:theme="@style/AppTheme"
-43-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:12:7-38
+43-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:12:7-38
 44        android:usesCleartextTraffic="true" >
-44-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\debug\AndroidManifest.xml:8:13-48
+44-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\debug\AndroidManifest.xml:8:13-48
 45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-45-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\debug\AndroidManifest.xml:11:9-86
-45-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\debug\AndroidManifest.xml:11:19-83
+45-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\debug\AndroidManifest.xml:11:9-86
+45-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\debug\AndroidManifest.xml:11:19-83
 46        <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
 47        <meta-data
-47-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:14:4-16:63
+47-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:14:4-16:63
 48            android:name="com.google.android.geo.API_KEY"
-48-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:15:6-51
+48-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:15:6-51
 49            android:value="AIzaSyBm0MrMAOe6-nWduvWD3tcgwy-yZ-rXF9k" /> <!-- You will also only need to add this uses-library tag -->
-49-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:16:6-61
+49-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:16:6-61
 50        <uses-library
-50-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:19:4-82
+50-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:19:4-82
 51            android:name="org.apache.http.legacy"
-51-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:19:18-55
+51-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:19:18-55
 52            android:required="false" />
-52-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:19:56-80
+52-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:19:56-80
 53
 54        <activity
-54-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:20:7-30:18
+54-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:20:7-30:18
 55            android:name="com.newapp.MainActivity"
-55-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:21:9-37
+55-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:21:9-37
 56            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-56-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:23:9-86
+56-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:23:9-86
 57            android:label="@string/app_name"
-57-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:22:9-41
+57-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:22:9-41
 58            android:launchMode="singleTask"
-58-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:24:9-40
+58-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:24:9-40
 59            android:windowSoftInputMode="adjustResize" >
-59-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:25:9-51
+59-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:25:9-51
 60            <intent-filter>
-60-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:26:9-29:25
+60-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:26:9-29:25
 61                <action android:name="android.intent.action.MAIN" />
-61-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:27:13-65
-61-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:27:21-62
+61-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:27:13-65
+61-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:27:21-62
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:28:13-73
-63-->C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\android\app\src\main\AndroidManifest.xml:28:23-70
+63-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:28:13-73
+63-->C:\Users\Asus\Desktop\TypeScript\NewApp\android\app\src\main\AndroidManifest.xml:28:23-70
 64            </intent-filter>
 65        </activity>
 66
 67        <meta-data
-67-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+67-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
 68            android:name="app_data_collection_default_enabled"
-68-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+68-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
 69            android:value="true" />
-69-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+69-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
 70
 71        <service
-71-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+71-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
 72            android:name="com.google.firebase.components.ComponentDiscoveryService"
-72-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+72-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
 73            android:directBootAware="true"
-73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 74            android:exported="false" >
-74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:36:13-37
+74-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:36:13-37
 75            <meta-data
-75-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+75-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
 76                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-76-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+76-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
 77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+77-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
 78        </service>
 79
 80        <provider
-80-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+80-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
 81            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-81-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+81-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
 82            android:authorities="com.newapp.reactnativefirebaseappinitprovider"
-82-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+82-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
 83            android:exported="false"
-83-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+83-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
 84            android:initOrder="99" /> <!-- suppress AndroidDomInspection -->
-84-->[:react-native-firebase_app] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+84-->[:react-native-firebase_app] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
 85        <activity
-85-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:67
+85-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:67
 86            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
-86-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-78
+86-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-78
 87            android:exported="true"
-87-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
+87-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
 88            android:theme="@style/DeviceCredentialHandlerTheme" />
-88-->[:react-native-keychain] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-64
+88-->[:react-native-keychain] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\react-native-keychain\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-64
 89
 90        <provider
-90-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
+90-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-32:20
 91            android:name="expo.modules.filesystem.FileSystemFileProvider"
-91-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
+91-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-74
 92            android:authorities="com.newapp.FileSystemFileProvider"
-92-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
+92-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-74
 93            android:exported="false"
-93-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
+93-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-37
 94            android:grantUriPermissions="true" >
-94-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
+94-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-47
 95            <meta-data
-95-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
+95-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-31:70
 96                android:name="android.support.FILE_PROVIDER_PATHS"
-96-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
+96-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-67
 97                android:resource="@xml/file_system_provider_paths" />
-97-->[:expo-file-system] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
+97-->[:expo-file-system] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-file-system\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-67
 98        </provider>
 99
 100        <meta-data
-100-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
+100-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:89
 101            android:name="org.unimodules.core.AppLoader#react-native-headless"
-101-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
+101-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-79
 102            android:value="expo.modules.adapters.react.apploader.RNHeadlessAppLoader" />
-102-->[:expo-modules-core] C:\Users\user01.ADMIN1\OneDrive\Desktop\RN\RunAppRNTS\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
+102-->[:expo-modules-core] C:\Users\Asus\Desktop\TypeScript\NewApp\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-86
 103
 104        <activity
-104-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:23:9-27:75
+104-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:23:9-27:75
 105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-105-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:24:13-93
+105-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:24:13-93
 106            android:excludeFromRecents="true"
-106-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:25:13-46
+106-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:25:13-46
 107            android:exported="false"
-107-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:26:13-37
+107-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:26:13-37
 108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-108-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:27:13-72
+108-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:27:13-72
 109        <!--
 110            Service handling Google Sign-In user revocation. For apps that do not integrate with
 111            Google Sign-In, this service will never be started.
 112        -->
 113        <service
-113-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:33:9-37:51
+113-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:33:9-37:51
 114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-114-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:34:13-89
+114-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:34:13-89
 115            android:exported="true"
-115-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:35:13-36
+115-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:35:13-36
 116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-116-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:36:13-107
+116-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:36:13-107
 117            android:visibleToInstantApps="true" />
-117-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:37:13-48
+117-->[com.google.android.gms:play-services-auth:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\8080d75fb045342e27cef26f44657def\transformed\jetified-play-services-auth-20.0.0\AndroidManifest.xml:37:13-48
 118
 119        <activity
-119-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+119-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
 120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-120-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+120-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
 121            android:exported="false"
-121-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+121-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
 122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-122-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+122-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\Asus\.gradle\caches\transforms-3\95ecbd594d8bd6394baebe20b81e7fe2\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
 123
 124        <meta-data
-124-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+124-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Asus\.gradle\caches\transforms-3\30eb3746eb318b8637a833841ad25ef0\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
 125            android:name="com.google.android.gms.version"
-125-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+125-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Asus\.gradle\caches\transforms-3\30eb3746eb318b8637a833841ad25ef0\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
 126            android:value="@integer/google_play_services_version" />
-126-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\de05a49104fb25694a004fbbc6898c7d\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+126-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\Asus\.gradle\caches\transforms-3\30eb3746eb318b8637a833841ad25ef0\transformed\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
 127
 128        <provider
-128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 129            android:name="com.google.firebase.provider.FirebaseInitProvider"
-129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 130            android:authorities="com.newapp.firebaseinitprovider"
-130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 131            android:directBootAware="true"
-131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 132            android:exported="false"
-132-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+132-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 133            android:initOrder="100" />
-133-->[com.google.firebase:firebase-common:20.0.0] C:\Users\user01.ADMIN1\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+133-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Asus\.gradle\caches\transforms-3\f58adcb0487387398a3acae706dc90ad\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 134    </application>
 135
 136</manifest>

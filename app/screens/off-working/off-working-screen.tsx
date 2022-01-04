@@ -3,7 +3,7 @@ import { observer } from "mobx-react-lite"
 import { ViewStyle, View, ScrollView, TextStyle, ImageStyle } from "react-native"
 import { Screen, Text, AutoImage, Button, } from "../../components"
 // import { useNavigation } from "@react-navigation/native"
-// import { useStores } from "../../models"
+// import { useStores } from "../../models"z
 import { color } from "../../theme"
 
 

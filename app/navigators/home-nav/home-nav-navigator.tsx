@@ -6,7 +6,8 @@ import {
   OffWorkingScreen,
   OtScreen,
   RegistOffWorkingScreen,
-  CheckScreen
+  CheckScreen,
+  RefillWorkScreen
 } from "../../screens"
 
 export type HomeNavParamList = {
@@ -15,7 +16,8 @@ export type HomeNavParamList = {
   offworking: undefined,
   overtime: undefined,
   registOffWorking: undefined,
-  check: undefined
+  check: undefined,
+  refillWork: undefined
 
 }
 
@@ -29,6 +31,7 @@ export const HomeNav = () => {
       <Stack.Screen name="overtime" component={OtScreen}/>
       <Stack.Screen name="registOffWorking" component={RegistOffWorkingScreen} />
       <Stack.Screen name="check" component={CheckScreen}/>
+      <Stack.Screen name="refillWork" component={RefillWorkScreen}/>
     </Stack.Navigator>
   )
 }

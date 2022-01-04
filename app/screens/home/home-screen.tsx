@@ -128,6 +128,7 @@ export const HomeScreen: FC<StackScreenProps<HomeNavParamList,"home">> = observe
   const workingScreenNav =()=> navigation.navigate("working")
   const offWorkingScreenNav = () => navigation.navigate("offworking")
   const oTScreenNav = () => navigation.navigate("overtime")
+  const refillWorkNav = () => navigation.navigate("refillWork")
 
   return (
     <Screen style={ROOT} preset="scroll">
@@ -187,7 +188,7 @@ export const HomeScreen: FC<StackScreenProps<HomeNavParamList,"home">> = observe
             </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={CATEGORIESITEM}>
+            <TouchableOpacity onPress={refillWorkNav} style={CATEGORIESITEM}>
             <View style={{justifyContent:"center", alignItems:"center"}}>
               <MaterialIcons name="wysiwyg" size={80} color={color.blue}  />
               <Text text="Bù công" style={CATEGORY} />
