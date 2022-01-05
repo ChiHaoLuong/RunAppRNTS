@@ -83,14 +83,15 @@ const INFORDATA: TextStyle = {
 }
 
 const LISTREFILLWORK: ViewStyle = {
-  margin: 20,
+  // margin: 20,
 }
 
 const ITEMREFILLCONTAINER: ViewStyle = {
   marginVertical: 10,
   borderRadius: 10,
   elevation: 10,
-  backgroundColor:color.background
+  backgroundColor:color.background,
+  marginHorizontal: 20
   
 }
 
@@ -143,12 +144,18 @@ export const RefillWorkScreen: FC<StackScreenProps<HomeNavParamList, "refillWork
     {id:1, day: moment("20112021", "DDMMYYYY"), typeRefill: "checkIn", timeRefill:moment().hours(24).minutes(0), reason:"Quên điểm danh"},
     {id:2, day: moment("21112021", "DDMMYYYY"), typeRefill: "checkOut", timeRefill:moment().hours(18).minutes(0), reason:"Quên điểm danh"},
     {id:3, day: moment("22112021", "DDMMYYYY"), typeRefill: "checkIn", timeRefill:moment().hours(19).minutes(0), reason:"Quên điểm danh"},
+    {id:4, day: moment("22112021", "DDMMYYYY"), typeRefill: "checkIn", timeRefill:moment().hours(19).minutes(0), reason:"Quên điểm danh"},
   ]
 
 
   return (
-    <Screen style={ROOT} preset="scroll">
-      <View style={HEADERCONTAINER}>
+  
+    <Screen style={ROOT} preset="fixed">
+
+      <FlatList 
+        style={LISTREFILLWORK}
+        ListHeaderComponent={
+          <View style={HEADERCONTAINER}>
         <View style={USERCARD}>
           <AutoImage style={BOWSER} source={bowserLogo} />
 
@@ -166,9 +173,7 @@ export const RefillWorkScreen: FC<StackScreenProps<HomeNavParamList, "refillWork
           </View>
         </View>
       </View>
-
-      <FlatList 
-        style={LISTREFILLWORK}
+        }
         data={data}
         renderItem={({item})=>(
           <View style={ITEMREFILLCONTAINER} >
@@ -192,5 +197,6 @@ export const RefillWorkScreen: FC<StackScreenProps<HomeNavParamList, "refillWork
     
       <Button text="Nhấp vào để đăng ký bù công" style={BTNREFILLWORK} textStyle={BTNREFILLWORKTITLE} onPress={registRefillNav} />
     </Screen>
+ 
   )
 }

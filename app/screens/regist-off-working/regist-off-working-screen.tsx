@@ -132,6 +132,7 @@ export const RegistOffWorkingScreen: FC<StackScreenProps<HomeNavParamList, "regi
 
   const acceptOff = () => {
     var diffFromNow = moment(dateFrom).diff(moment(), "days")
+    console.log("Dong 135, chênh lệch ngày: ",diffFromNow)
     if (diffFromNow < 3) Alert.alert("Lỗi", "Vui lòng chọn ngày bắt đầu nghỉ trước 3 ngày")
     // if (offDaysTotal < 0)
     // {

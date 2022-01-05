@@ -1,14 +1,13 @@
-import React, {FC} from "react"
+import React, { FC } from "react"
 import { observer } from "mobx-react-lite"
 import { ViewStyle, View, ScrollView, TextStyle, ImageStyle } from "react-native"
-import { Screen, Text, AutoImage, Button, } from "../../components"
+import { Screen, Text, AutoImage, Button } from "../../components"
 // import { useNavigation } from "@react-navigation/native"
 // import { useStores } from "../../models"z
 import { color } from "../../theme"
 
-
 import { StackScreenProps } from "@react-navigation/stack"
-import {HomeNavParamList} from '../../navigators'
+import { HomeNavParamList } from "../../navigators"
 
 const bowserLogo = require("../profile/anhdaidien.jpg")
 
@@ -16,7 +15,6 @@ const ROOT: ViewStyle = {
   backgroundColor: color.background,
   flex: 1,
 }
-
 
 const USERCARD: ViewStyle = {
   flexDirection: "row",
@@ -31,7 +29,6 @@ const USERCARD: ViewStyle = {
 
 const USERINFOR: ViewStyle = {
   margin: 5,
-
 }
 
 const USERINFORNAME: TextStyle = {
@@ -53,22 +50,22 @@ const BOWSER: ImageStyle = {
   borderRadius: 50,
 }
 
-const CARDOFFWORKING : ViewStyle = {
-    marginVertical: 5,
-    marginHorizontal: 20,
-    backgroundColor: color.background,
-    borderRadius: 10,
-    elevation: 15,
+const CARDOFFWORKING: ViewStyle = {
+  marginVertical: 5,
+  marginHorizontal: 20,
+  backgroundColor: color.background,
+  borderRadius: 10,
+  elevation: 15,
 }
 
-const CARDTITLE : ViewStyle = {
+const CARDTITLE: ViewStyle = {
   flexDirection: "row",
   backgroundColor: color.blue,
   borderBottomWidth: 0.5,
   padding: 10,
   borderTopLeftRadius: 10,
   borderTopRightRadius: 10,
-  justifyContent: "center"
+  justifyContent: "center",
 }
 
 const TEXTTITLE: TextStyle = {
@@ -81,30 +78,29 @@ const CARDBODY: ViewStyle = {
   flexDirection: "row",
   padding: 10,
   paddingHorizontal: 10,
-  
 }
 
 const INNERLEFTCARD: TextStyle = {
   color: color.dim,
-  flex: 1.5
+  flex: 1.5,
 }
 
 const INNERRIGHTCARD: TextStyle = {
   color: color.palette.black,
-  flex: 1
+  flex: 1,
 }
 
-const DAYOFNUM : TextStyle = {
+const DAYOFNUM: TextStyle = {
   color: color.error,
   textAlign: "center",
-  margin: 10
+  margin: 10,
 }
 
 const BTNOFFWORKING: ViewStyle = {
-    borderRadius: 20,
-    marginHorizontal: 50,
-    backgroundColor: color.palette.blue,
-    margin: 5,
+  borderRadius: 20,
+  marginHorizontal: 50,
+  backgroundColor: color.palette.blue,
+  margin: 5,
 }
 
 const BTNTEXTOFFWORKING: TextStyle = {
@@ -112,20 +108,21 @@ const BTNTEXTOFFWORKING: TextStyle = {
   fontSize: 13,
 }
 
-export const OffWorkingScreen: FC<StackScreenProps<HomeNavParamList, "registOffWorking">> = observer(
-  ({navigation}) => {
-
-    const registOffWorkingNav = () => {navigation.navigate("registOffWorking")}
+export const OffWorkingScreen: FC<
+  StackScreenProps<HomeNavParamList, "registOffWorking">
+> = observer(({ navigation }) => {
+  const registOffWorkingNav = () => {
+    navigation.navigate("registOffWorking")
+  }
   // Pull in one of our MST stores
   // const { someStore, anotherStore } = useStores()
 
   // Pull in navigation via hook
   // const navigation = useNavigation()
 
-
-
   return (
     <Screen style={ROOT} preset="scroll">
+      <ScrollView>
         <View style={USERCARD}>
           <AutoImage style={BOWSER} source={bowserLogo} />
 
@@ -133,67 +130,69 @@ export const OffWorkingScreen: FC<StackScreenProps<HomeNavParamList, "registOffW
             <Text text="Dương Xử Nữ" style={USERINFORNAME} />
             <Text text="Nichietsu VN" style={USERINFORCOMPANY} />
           </View>
-      </View>    
+        </View>
 
-      <ScrollView >
-        <View style={CARDOFFWORKING} >
-          <View style={CARDTITLE} >
+        <View style={CARDOFFWORKING}>
+          <View style={CARDTITLE}>
             <Text text="03/09/2021" style={TEXTTITLE} />
             <Text text="  -  " style={TEXTTITLE} />
             <Text text="04/09/2021" style={TEXTTITLE} />
           </View>
 
-          <View style={CARDBODY} >
-              <Text text="Lý do:" style={INNERLEFTCARD} />
-              <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
+          <View style={CARDBODY}>
+            <Text text="Lý do:" style={INNERLEFTCARD} />
+            <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
           </View>
 
-          <View style={CARDBODY} >
-              <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
-              <Text text="2" style={INNERRIGHTCARD} />
+          <View style={CARDBODY}>
+            <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
+            <Text text="2" style={INNERRIGHTCARD} />
           </View>
         </View>
 
-        <View style={CARDOFFWORKING} >
-          <View style={CARDTITLE} >
+        <View style={CARDOFFWORKING}>
+          <View style={CARDTITLE}>
             <Text text="03/09/2021" style={TEXTTITLE} />
             <Text text="  -  " style={TEXTTITLE} />
             <Text text="04/09/2021" style={TEXTTITLE} />
           </View>
 
-          <View style={CARDBODY} >
-              <Text text="Lý do:" style={INNERLEFTCARD} />
-              <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
+          <View style={CARDBODY}>
+            <Text text="Lý do:" style={INNERLEFTCARD} />
+            <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
           </View>
 
-          <View style={CARDBODY} >
-              <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
-              <Text text="2" style={INNERRIGHTCARD} />
+          <View style={CARDBODY}>
+            <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
+            <Text text="2" style={INNERRIGHTCARD} />
           </View>
         </View>
 
-        <View style={CARDOFFWORKING} >
-          <View style={CARDTITLE} >
+        <View style={CARDOFFWORKING}>
+          <View style={CARDTITLE}>
             <Text text="03/09/2021" style={TEXTTITLE} />
             <Text text="  -  " style={TEXTTITLE} />
             <Text text="04/09/2021" style={TEXTTITLE} />
           </View>
-          <View style={CARDBODY} >
-              <Text text="Lý do:" style={INNERLEFTCARD} />
-              <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
+          <View style={CARDBODY}>
+            <Text text="Lý do:" style={INNERLEFTCARD} />
+            <Text text="Mệt mỏi quá trời quá đất luôn á hi" style={INNERRIGHTCARD} />
           </View>
 
-          <View style={CARDBODY} >
-              <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
-              <Text text="2" style={INNERRIGHTCARD} />
+          <View style={CARDBODY}>
+            <Text text="Tổng số ngày nghỉ:" style={INNERLEFTCARD} />
+            <Text text="2" style={INNERRIGHTCARD} />
           </View>
         </View>
       </ScrollView>
       <Text text="Bạn còn 10 ngày phép trong tháng" style={DAYOFNUM} />
 
-      <Button style={BTNOFFWORKING} onPress={registOffWorkingNav}  text="ĐĂNG KÝ NGHỈ PHÉP" textStyle={BTNTEXTOFFWORKING} />
-      
-
+      <Button
+        style={BTNOFFWORKING}
+        onPress={registOffWorkingNav}
+        text="ĐĂNG KÝ NGHỈ PHÉP"
+        textStyle={BTNTEXTOFFWORKING}
+      />
     </Screen>
   )
 })
