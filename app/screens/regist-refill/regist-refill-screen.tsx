@@ -33,7 +33,7 @@ export const RegistRefillScreen: FC<StackScreenProps<HomeNavParamList, "registRe
   const [day, setDay] = useState(new Date())
   const [showDay, setShowDay] = useState(false)
   const [reasonEdt, setReasonEdt] = useState("")
-  const [isCheckIn, setIsCheckIn] = useState(false)
+  const [isCheckIn, setIsCheckIn] = useState(true)
   const [isCheckOut, setIsCheckOut] = useState(false)
   const [errMsg, setErrMsg] = useState("") 
 
@@ -45,11 +45,15 @@ export const RegistRefillScreen: FC<StackScreenProps<HomeNavParamList, "registRe
       setErrMsg("Vui lòng chọn ngày hôm nay hoặc quá khứ")
 
     }
+    else if(!reasonEdt) setErrMsg("Nhập lý do ")
     else if(isCheckIn && isCheckOut)
     {
-      if(diffTimeFromTimeTo <= 0) setErrMsg("Giờ làm và giờ ra về phải cách nhau 1 tiếng")
+      if(diffTimeFromTimeTo <= 0) 
+      {
+        setErrMsg("Giờ làm và giờ ra về phải cách nhau 1 tiếng")
+      }
+      else setErrMsg("")
     }
-    else if(!reasonEdt) setErrMsg("Nhập lý do ")
     else setErrMsg("")
   },[timeFrom, timeTo, day, isCheckIn, isCheckOut, reasonEdt])
 
@@ -82,6 +86,8 @@ export const RegistRefillScreen: FC<StackScreenProps<HomeNavParamList, "registRe
     else 
     {
       Alert.alert("Thành công", "Bạn đã đăng ký ")
+      navigation.navigate("refillWork")
+
     }
   }
 
@@ -106,7 +112,6 @@ export const RegistRefillScreen: FC<StackScreenProps<HomeNavParamList, "registRe
               case "Vào làm":
                 setIsCheckIn(true)
                 setIsCheckOut(false)
-                setTimeFrom(new Date())
                 break
               case "Ra về": 
                 setIsCheckOut(true)
